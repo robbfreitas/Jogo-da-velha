@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    border: 1px solid gray;
+    display: inline-block;
+}
