@@ -43,3 +43,20 @@ h1 {
     left: 0;
     right: 0;
 }
+
+#refresh {
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+#refresh:hover {
+    transition: 600ms;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+}
