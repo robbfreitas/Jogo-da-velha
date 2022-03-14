@@ -32,6 +32,12 @@ function updateSquares(position) {
 
 }
 
+
+var btn = document.querySelector("#refresh");
+    btn.addEventListener("click", function(){
+    location.reload();
+})
+
 // function updateSquares() {
 
 //     let squares = document.querySelectorAll(".square");
